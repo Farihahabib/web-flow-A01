@@ -48,10 +48,12 @@ font-weight: bolder;
    text-align: center;
 }
 .hdescription{
+    display: block;
+    margin: 0 auto;
     font-weight: 700;
     font-size: 65px;
     width: 1000px;
-    margin-left: 300px;
+   
     
 }
 .m-bottom{
@@ -145,7 +147,10 @@ margin-top: 1px;
 
   
 }
-
+.block {
+    display: block;
+   
+}
 .name{
     color: rgba(117, 117, 117, 1);
     font-weight: 700;
@@ -202,7 +207,7 @@ margin-top: 1px;
 }
 .input label{
     display: block;
-    margin-top: 15px;
+   
     font-size: 18px;
     font-weight: 400;
 }
@@ -222,11 +227,13 @@ margin-top: 1px;
   font-size: 18px;
   font-weight:400 ;
 }
-textarea{
+.textarea textarea{
     font-weight: 400;
     border: none;
     margin-top: 8px;
     padding: 20px;
+    color:#8987A1;
+    border-radius: 10px;
 }
 .touch button{
     margin-top: 15px;
@@ -251,7 +258,7 @@ footer p{
 }
 .links{ 
   text-align: center;
- 
+ align-items: space-around;
     
 }
 .links a{
