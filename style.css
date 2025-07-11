@@ -256,17 +256,23 @@ footer p{
     text-align: center;
     color: #8987A1;
 }
-.links{ 
-  text-align: center;
- align-items: space-around;
-    
+.links ul{ 
+    display: flex;
+ justify-content: center;
+ 
+ 
 }
-.links a{
-    
-
+.links ul li{
+    list-style: none;
+  gap: 15px;
+}
+.links li a{
+    gap: 15px;
+    justify-content: space-around;
+text-decoration: none;
    font-size: 16px;
     color: #8987A1;
-    text-decoration: none;
+ 
 }
 /* .input input[type="text"]{
 height: 30px;
