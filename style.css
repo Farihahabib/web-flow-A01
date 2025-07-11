@@ -61,7 +61,7 @@ font-weight: bolder;
     margin-top: 50px;
 }
 .btn:hover{
-    background-color: rgb(226, 162, 84);
+    background-color: rgb(235, 156, 60);
 }
 .action{
     margin-top: 80px;
@@ -275,4 +275,7 @@ text-decoration: none;
    font-size: 16px;
     color: #8987A1;
  
+}
+ .links li a:hover{
+    color: #4E47FF;
 }
